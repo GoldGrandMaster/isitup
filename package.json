@@ -1,0 +1,38 @@
+{
+  "name": "isitup",
+  "version": "1.1.0",
+  "description": "A simple client for isitup.org website",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "npm run lint && node test.js",
+    "coverage": "istanbul cover tape -- node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamal72/isitup.git"
+  },
+  "keywords": [
+    "uptime",
+    "http",
+    "website",
+    "universal"
+  ],
+  "author": "Mohamad Jahani <m4m4lj@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mamal72/isitup/issues"
+  },
+  "homepage": "https://github.com/mamal72/isitup#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.12",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^5.0.0",
+    "eslint-plugin-import": "^1.12.0",
+    "istanbul": "^0.4.4",
+    "tape": "^4.6.0"
+  }
+}
